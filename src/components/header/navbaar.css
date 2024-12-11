@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .app {
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid #add8e6; /* Light blue border all around */
+    border-radius: 10px 10px 0 0; /* Rounded top corners, square bottom corners */
+    margin-bottom: 0; /* Ensure no gap after the navbar */
+    margin-left: 34px; /* Increase margin on the left */
+    margin-right: 34px; /* Increase margin on the right */
+}
+  
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  .navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  .navbar nav a:hover {
+    color: #007bff;
+  }
+  
+  .login-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 10px; /* Added corner radius */
+  }
+  
+  .login-btn:hover {
+    background-color: #444;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1aae17;
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 0 0 15px 15px; /* Square top corners, rounded bottom corners */
+    margin: 0; /* Remove margin from the top of the hero section */
+    margin-left: 34px; /* Increase margin on the left */
+    margin-right: 34px; /* Increase margin on the right */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a modern look */
+    border-top: none;
+    border: 3px solid black;
+}
+  
+  .hero-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.7rem;
+    color: #000;
+    margin-bottom: 25px;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .calculate-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .chat-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  
+  .hero-icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Stats Section */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .stat-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px; /* Rounded corners for individual stats */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for elevation */
+    margin: 10px;
+    flex: 1; /* Makes all items evenly sized */
+    border: 2px solid black;
+  }
+  
+  .stat-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+  
+  .eco-demo-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 2px solid black;
+  }
+  
