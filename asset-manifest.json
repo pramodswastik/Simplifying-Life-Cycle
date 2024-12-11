@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Simplifying-Life-Cycle/static/css/main.2f24fb02.css",
+    "main.js": "/Simplifying-Life-Cycle/static/js/main.6c7401b1.js",
+    "static/js/453.419a5d54.chunk.js": "/Simplifying-Life-Cycle/static/js/453.419a5d54.chunk.js",
+    "index.html": "/Simplifying-Life-Cycle/index.html",
+    "main.2f24fb02.css.map": "/Simplifying-Life-Cycle/static/css/main.2f24fb02.css.map",
+    "main.6c7401b1.js.map": "/Simplifying-Life-Cycle/static/js/main.6c7401b1.js.map",
+    "453.419a5d54.chunk.js.map": "/Simplifying-Life-Cycle/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f24fb02.css",
+    "static/js/main.6c7401b1.js"
+  ]
+}
