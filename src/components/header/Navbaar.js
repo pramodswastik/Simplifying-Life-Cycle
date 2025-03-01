@@ -2,8 +2,9 @@ import React, { useState } from "react"; // Import useState for state management
 import "./navbaar.css";
 import Chatbot from "./Chatbot"; // Import the Chatbot component
 import "./Chatbot.css"; // Chatbot styles
+import { Link } from "react-router-dom";
 
-function App() {
+function Home() {
   // State to control chatbot visibility
   const [showChatbot, setShowChatbot] = useState(false);
 
@@ -13,18 +14,25 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="app ">
       {/* Navbar */}
       <header className="navbar">
-        <h1 className="logo">🌿 Simplifying Life Cycle</h1>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#manual-lca">Manual LCA</a>
-          <a href="#chatbot">Chatbot</a>
-          <a href="#more-info">More info</a>
-        </nav>
-        <button className="login-btn">Log in</button>
-      </header>
+  <h1 className="logo">🌿 Simplifying Life Cycle</h1>
+
+  <nav className="nav-links">
+    <Link to="/">Home</Link>
+    <Link to="/manualLCA">Manual LCA</Link>
+    <Link to="/">More Info</Link>
+    <a href="#chatbot" onClick={toggleChatbot}>
+      {showChatbot ? "Chatbot" : "Chatbot"}
+    </a>
+  </nav>
+
+  <Link to="/login">
+    <button className="login-btn">Log in</button>
+  </Link>
+</header>
+
 
       {/* Hero Section */}
       <section className="hero">
@@ -35,7 +43,7 @@ function App() {
           </h2>
           <p>Secure storage for eco-data, ensuring sustainability and protection</p>
           <div className="hero-buttons">
-            <button className="btn calculate-btn">Calculate</button>
+           <Link to= "/calculate"> <button className="btn calculate-btn">Calculate</button></Link>
             {/* Button to toggle the chatbot */}
             <button className="btn chat-btn" onClick={toggleChatbot}>
               {showChatbot ? "Close Chat" : "Chat now"}
@@ -72,4 +80,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
